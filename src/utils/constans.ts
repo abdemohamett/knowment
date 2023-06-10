@@ -3,25 +3,25 @@ export const tags = ["all", "self-help", "shame", "money", "leadership"];
 export const people = [
       {
     _id: "1",
-    name: "Lee Robinson",
+    name: "Hosna Qasmie",
     image:
-      "https://leerob.io/_next/static/media/avatar.b1d1472f.jpg",
-    bio: " VP of Developer Experience at Vercel, Speaker, Helps developers build fatster and easier before",
-    areasOfExpertise: ["Vercel", "Developer", "Software Engineer"],
+      "https://media.licdn.com/dms/image/D5603AQEho1m5QYkuug/profile-displayphoto-shrink_800_800/0/1680854723633?e=2147483647&v=beta&t=72KZXfy1A1Mpryc9AWdv8iNOLa0Yuu5sw9nmo5OyMzY",
+    bio: "Hosna Qasmei is a Software engineer, Youtuber, and likes building cool stuff.",
+    areasOfExpertise: ["Youtuber", "Developer", "Software Engineer"],
     works: [
       {
-        title: "Build a Faster Web",
+        title: "SportsTable",
         description:
-          "I'm a Next.js contributor and help lead our open-source communities. I'm passionate about frontend development and have created courses on React, Next.js,",
+          "Sports Highlights in One Place",
         medium: "Website",
-        url: "https://leerob.io/",
+        url: "https://sportstable.io/",
       },
       {
-        title: "Blog Posts",
+        title: "Yad Bigee",
         description:
-          "Things that related to building things faster and about nextjs, vercel things like that .",
-        medium: "Blog",
-        url: "https://leerob.io/blog",
+          "Learn English & Dari with Yad Bigee app, For iOS, iPadOS and macOS.",
+        medium: "App",
+        url: "https://yadbigee.com/",
       },
     ],
     contactInformation: {

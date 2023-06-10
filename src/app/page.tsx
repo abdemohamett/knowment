@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Logo from '../../public/LOGO.png'
 import PeopleGrid from '@/components/people-grid'
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
@@ -14,10 +15,11 @@ export default function Home() {
        width={60} 
        height={60}
         />
-        <h1 className='text-2xl font-semibold'>Know<span className='text-sky-600'>Ment</span></h1>
+        <h1 className='text-2xl font-semibold'>Wisdom<span className='text-sky-600'>fy</span></h1>
       </Link>
         
       <PeopleGrid/>
+      <Footer/>
     </section>
   </main>
   )

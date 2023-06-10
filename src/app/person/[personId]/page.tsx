@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import { FiArrowLeft } from "react-icons/fi";
 import { people } from "@/utils/constans";
-
+import {BsTwitter} from 'react-icons/bs'
 
 const Person = ({ params }: { params: { personId: string } }) => {
   const info = people.find((item) => item._id === params.personId);
@@ -66,6 +66,7 @@ const Person = ({ params }: { params: { personId: string } }) => {
                       </div>
                     ))}
                   </div>
+                
                 </div>
               </div>
             </div>

@@ -1,11 +1,16 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
+// import icon from '../../public/LOGO.png'icon
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'KnowMent',
-  description: 'Knowhance Clone',
+  // icons: {
+  //   icon: {icon},
+  // },
+  title: 'Wisdomfy',
+  description: 'Wisdom is Knowhance Demo Clone',
 }
 
 export default function RootLayout({
